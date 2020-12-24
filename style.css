@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Satisfy&display=swap');
+*{box-sizing: border-box;}
+body{margin: 0px;}
+.img{width: 45px;}
+a{ font-size: 1.2rm;
+    text-decoration: none;padding:10px;margin: 5px;}
+h1,h2,h3,h4,h5,h6{ text-transform: uppercase;
+    font-family: sans-serif;font-size: 2.5rem;}
+p{font-size: 1.2rem;text-align: justify;}
+/* navebar desing start from here */
+.n-titel h1{
+       text-align: center;
+    margin: 0px;
+    padding: 8px;
+    color: white;
+    }
+
+
+.n-manu a{color:white;
+
+    background-color: aqua;
+    border-radius: 10px;
+    transition: 2s;}
+[class*="col-"]{float: left;
+padding: 10px;}
+
+[class*="col-"]{width:100%
+   }
+
+.navebar{background-color: teal;
+    text-align: center;
+    padding: 1% 7%;}
+
+.n-manu {
+    display: flex;
+    flex-direction: column;
+    text-transform:uppercase ;}
+.n-manu a:hover{background-color: antiquewhite;color: black;transform: rotate(360deg);}
+
+.navebar::after{content: '';
+        display: table;
+        clear: both;}
+ /* navebar desing end here     */
+/* profile desing start from here */
+.profile{padding: 110px 10px;
+    text-align: center;
+    position: relative;}
+
+.top-weather-img img{width: 120px;}
+
+.profile .top-weather-img{position: absolute;
+    right: 60px;top: 20px;
+    transition: transform 2s;}
+
+.profile .top-weather-img:hover{transform: rotate(360deg);}
+
+.profile-dis h1 {font-family: 'Satisfy', cursive;
+    text-transform: none;
+    font-size: 3rem;
+     line-height: 4rem;transition: transform 1s;}
+.profile-dis h1:hover{transform: rotate(360deg);}
+.profile-dis p{color: gray;text-align: center;
+    width: 90%;
+    margin: 0 auto 40px  auto;}
+
+.bottom-weather-img img{width: 120px;}
+
+.profile .bottom-weather-img{position: absolute;
+    left: 60px;bottom: 5px;
+    transition: transform 2s;}  
+
+.profile .bottom-weather-img:hover{transform: rotate(360deg);}
+.profile::after{content: '';
+    display: table;
+    clear: both;}
+/* profile desing end here */
